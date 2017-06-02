@@ -1,7 +1,7 @@
 body{
   text-align: center;
   height: 100%;
-  background-color: #f4f1e9;
+  background-color: #f1d693;
 }
 
 .jumbotron{
@@ -18,6 +18,7 @@ body{
   width: 50%;
   padding: 15px;
   background-color: #df7a7b;
+  border-bottom: double 5px;
 }
 
 img{
@@ -36,7 +37,7 @@ img{
 
 .question-box{
   background-color: #f1d693;
-  background: linear-gradient(#df7a7b, #f1d693);
+  background: radial-gradient(#f1d693, #df7a7b);
   width: 50%;
 }
 
@@ -77,8 +78,21 @@ img{
   display: none;
 }
 
+#javapic{
+  display: block;
+  margin-left: 25%;
+  height: 250px;
+  width: 250px;
+}
 
 
 #css{
   display: none;
+}
+
+#csspic{
+  display: block;
+  margin-left: 25%;
+  height: 250px;
+  width: 250px;
 }
