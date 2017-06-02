@@ -1,6 +1,11 @@
 body{
   text-align: center;
   height: 100%;
+  background-color: #d5d5d5
+}
+
+.jumbotron{
+  background-color: #6d7993
 }
 
 .paragraph{
@@ -8,6 +13,7 @@ margin-left: 20px;
 float: left;
 width: 50%;
 padding: 15px;
+background-color: #96858f
 }
 
 img{
