@@ -44,6 +44,7 @@ img{
   float: right;
   margin-top: 5%;
   margin-right: 4%;
+  height: 350px;
 }
 
 .result .answer{
@@ -52,4 +53,16 @@ img{
 
 .result h3{
   color: #f4f1e9;
+}
+
+/*#ruby{
+  display: none;
+}*/
+
+#java{
+  display: none;
+}
+
+#css{
+  display: none;
 }
