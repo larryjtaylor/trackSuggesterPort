@@ -1,26 +1,38 @@
 body{
   text-align: center;
   height: 100%;
-  background-color: #f4f1e9
+  background-color: #f4f1e9;
 }
 
 .jumbotron{
-  background-color: #16576c
+  background-color: #16576c;
 }
 .jumbotron h1{
   color: #f4f1e9;
 }
 
 .paragraph{
-margin-left: 20px;
+font-size: 20px;
 float: left;
 width: 50%;
 padding: 15px;
-background-color: #df7a7b
+background-color: #df7a7b;
 }
 
 img{
-  float: left;
-  width: auto;
-  margin-left: 20px;
+float: left;
+width: auto;
+margin-left: 20px;
+}
+
+.question{
+margin: 0 auto;
+margin-bottom: 50px;
+width: 80%;
+padding: 2%;
+font-style: Arial;
+}
+.question-box{
+background-color: #f1d693;
+width: 50%;
 }
