@@ -44,7 +44,7 @@ img{
   float: right;
   margin-top: 5%;
   margin-right: 4%;
-  height: 350px;
+  height: 400px;
 }
 
 .result .answer{
@@ -55,13 +55,27 @@ img{
   color: #f4f1e9;
 }
 
-/*#ruby{
+.result h1{
+  color: #f4f1e9;
+  font-size: 248px;
+}
+
+#ruby{
   display: none;
-}*/
+}
+
+#rubypic{
+  display: block;
+  margin-left: 25%;
+  height: 250px;
+  width: 250px;
+}
 
 #java{
   display: none;
 }
+
+
 
 #css{
   display: none;
