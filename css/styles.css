@@ -63,6 +63,10 @@ img{
   font-size: 248px;
 }
 
+.result h4{
+  color: #f4f1e9;
+}
+
 #ruby{
   display: none;
 }
