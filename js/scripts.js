@@ -6,17 +6,16 @@ $(document).ready(function(){
     var stack = $("select#stack").val();
     var city = $("select#city").val();
 
-    if(co_size === ("large" || "medium") && platform === ("full" || "both") && stack === ("back" || "full") && city === ("ca" || "ny")) {
+    if(co_size === "large" && platform === "web" && stack === "back" && city ==="ca") {
       $("#temp, #java, #css").hide();
       $("#ruby").show();
-    } else if(co_size === ("large" || "medium") && platform === "mobile" && stack === ("front" || "both") && city === ("ca" || "or")){
+    } else if(co_size === "medium" && platform === "mobile" && stack === "full" && city === "ny"){
       $("#temp, #ruby, #css").hide();
       $("#java").show();
-}
-    // } else {
-    //   $("#temp, #ruby, #java").hide();
-    //   $("#css").show();
-    // }
+    } else {
+      $("#temp, #ruby, #java").hide();
+      $("#css").show();
+    }
     event.preventDefault();
   });
 });
