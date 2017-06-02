@@ -6,6 +6,7 @@ body{
 
 .jumbotron{
   background-color: #16576c;
+  background: linear-gradient(to bottom left, #16576c, #61aa97);
 }
 .jumbotron h1{
   color: #f4f1e9;
@@ -35,6 +36,7 @@ img{
 
 .question-box{
   background-color: #f1d693;
+  background: linear-gradient(#df7a7b, #f1d693);
   width: 50%;
 }
 
