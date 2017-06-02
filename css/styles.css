@@ -39,6 +39,7 @@ img{
   background-color: #f1d693;
   background: radial-gradient(#f1d693, #df7a7b);
   width: 50%;
+  padding-bottom: 10px;
 }
 
 .result{
@@ -99,4 +100,10 @@ img{
   margin-left: 25%;
   height: 250px;
   width: 250px;
+}
+.bottom{
+  background-color: #16576c;
+  color: #f4f1e9;
+  padding: 10px;
+  margin-top: 10px;
 }
