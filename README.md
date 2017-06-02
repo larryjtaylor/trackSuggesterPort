@@ -1,12 +1,12 @@
 # Track Suggester
-####A helpful tool in deciding which coding language to learn, 06/02/17
-####By Larry Taylor
+#### A helpful tool in deciding which coding language to learn, 06/02/17
+#### By Larry Taylor
 
-##Description
+## Description
 
 This is a simple tool to help decide between three possible language tracks at Epicodus. Through the user input via select boxes, a suggestion for the best track will be revealed.
 
-##Running instructions
+## Running instructions
 * Pull https://github.com/ltmoocow14/track-suggester.git.
 * Piew index.html, and see javascript and css in corresponding folders.
 * Piew page on gh-pages at https://ltmoocow14.github.io/track-suggester/
@@ -25,6 +25,6 @@ Contact me at larryjmaestaylor@gmail.com
 
 Incorporates bootstrap.css and jquery.js
 
-##license
+## license
 
 Open source. Feel free to pull, copy, edit, etc.
