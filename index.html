@@ -12,15 +12,18 @@
       <div class='jumbotron'>
         <h1>What direction should I take?</h1>
       </div>
+
       <div class="paragraph">
         <p>So you have decided to explore the exciting and lucrative world of web development. Congratulations! This is the first step toward a challenging and satisfying career. Getting started can be intimidating. With so many language options, it can be hard to know where to begin. This site will help you narrow down your expected outcomes and provide options with development learning programs that may be right for you. Good luck!</p>
       </div>
       <div class="image">
         <img src="img/image.jpg" alt="Thinking about programming">
       </div>
+
       <div class="result">
         <h3>Get your result here!</h3>
         <h1 id="temp">?</h1>
+
         <div id="ruby">
           <h4>You should take the Ruby/Rails track!</h4>
           <img src="img/rails.jpg" alt="Ruby on Rails logo" id="rubypic">
@@ -34,40 +37,44 @@
           <img src="img/css.png" alt="CSS lego" id="csspic">
         </div>
       </div>
+
       <div class="question-box">
-        <div class="question" id="question1">
-          <h3>What size company would you be most interested in working for?</h3>
-          <select class="form-control" id="co_size">
-            <option value="large">Large legacy corporation</option>
-            <option value="medium">Mid-size</option>
-            <option value="small">Small independent startup</option>
-          </select>
-        </div>
-        <div class="question" id="question2">
-          <h3>What type of platform most excites you?</h3>
-          <select class="form-control" id="platform">
-            <option value="full">Full element webpages</option>
-            <option value="mobile">Mobile applications</option>
-            <option value="both">Both</option>
-          </select>
-        </div>
-        <div class="question" id="question3">
-          <h3>What area of a website would you be most interested in building?</h3>
-          <select class="form-control" id="stack">
-            <option value="front">User interface/ front-end</option>
-            <option value="back">Business logic/back-end</option>
-            <option value="full">Both/full-stack</option>
-          </select>
-        </div>
-        <div class="question" id="question4">
-          <h3>Where would you like to live and work?</h3>
-          <select class="form-control" id="city">
-            <option value="ca">San Francisco</option>
-            <option value="or">Portland</option>
-            <option value="ny">New York</option>
-          </select>
-        </div>
-        <button type="submit" class="btn">Submit</button>
+        <form>
+          <div class="question">
+            <h3>What size company would you be most interested in working for?</h3>
+            <select class="form-control" id="co_size">
+              <option value="large">Large legacy corporation</option>
+              <option value="medium">Mid-size</option>
+              <option value="small">Small independent startup</option>
+            </select>
+          </div>
+          <div class="question">
+            <h3>What type of platform most excites you?</h3>
+            <select class="form-control" id="platform">
+              <option value="full">Full element webpages</option>
+              <option value="mobile">Mobile applications</option>
+              <option value="both">Both</option>
+            </select>
+          </div>
+          <div class="question">
+            <h3>What area of a website would you be most interested in building?</h3>
+            <select class="form-control" id="stack">
+              <option value="front">User interface/ front-end</option>
+              <option value="back">Business logic/back-end</option>
+              <option value="full">Both/full-stack</option>
+            </select>
+          </div>
+          <div class="question">
+            <h3>Where would you like to live and work?</h3>
+            <select class="form-control" id="city">
+              <option value="ca">San Francisco</option>
+              <option value="or">Portland</option>
+              <option value="ny">New York</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
       </div>
 
     </div>

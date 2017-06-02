@@ -1,21 +1,22 @@
 $(document).ready(function(){
-  $("select.question-box").submit(function() {
-    var co_size = document.getElementById("#co_size");
-      var selection = co_size.options[co_size.selectedIndex].value;
-    var platform = document.getElementById("select#platform");
-    var stack = document.getElementById("select#stack");
-    var city = document.getElementById("select#city");
+  $(".question-box").submit(function(event) {
 
-    if(selection === "large") {
-      alert("it works");
-      // $("#temp").hide();
-      // $("#ruby").show();
-    } else if () {
-      $("#temp").hide();
+    var co_size = $("select#co_size").val();
+    var platform = $("select#platform").val();
+    var stack = $("select#stack").val();
+    var city = $("select#city").val();
+
+    if(co_size === ("large" || "medium") && platform === ("full" || "both") && stack === ("back" || "full") && city === ("ca" || "ny")) {
+      $("#temp, #java, #css").hide();
+      $("#ruby").show();
+    } else if(co_size === ("large" || "medium") && platform === "mobile" && stack === ("front" || "both") && city === ("ca" || "or")){
+      $("#temp, #ruby, #css").hide();
       $("#java").show();
-    } else () {
-      $("#temp").hide();
-      $("#css").show();
-    }
+}
+    // } else {
+    //   $("#temp, #ruby, #java").hide();
+    //   $("#css").show();
+    // }
+    event.preventDefault();
   });
 });
