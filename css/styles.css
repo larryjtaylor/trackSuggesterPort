@@ -12,27 +12,44 @@ body{
 }
 
 .paragraph{
-font-size: 20px;
-float: left;
-width: 50%;
-padding: 15px;
-background-color: #df7a7b;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  padding: 15px;
+  background-color: #df7a7b;
 }
 
 img{
-float: left;
-width: auto;
-margin-left: 20px;
+  float: left;
+  width: auto;
+  margin-left: 20px;
 }
 
 .question{
-margin: 0 auto;
-margin-bottom: 50px;
-width: 80%;
-padding: 2%;
-font-style: Arial;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 80%;
+  padding: 2%;
+  font-style: Arial;
 }
+
 .question-box{
-background-color: #f1d693;
-width: 50%;
+  background-color: #f1d693;
+  width: 50%;
+}
+
+.result{
+  background-color: #16576c;
+  width: 44%;
+  float: right;
+  margin-top: 5%;
+  margin-right: 4%;
+}
+
+.result .answer{
+  color: #f4f1e9;
+}
+
+.result h3{
+  color: #f4f1e9;
 }
